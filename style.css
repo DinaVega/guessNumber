@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  background: linear-gradient(0deg, #292e49 0%, #536976 100%);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.25);
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.suggest {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 48px;
+}
+
+.btns form {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+input {
+  width: 127px;
+  height: 48px;
+  border: 1px solid #292e49;
+  border-radius: 8px;
+  background-color: rgba(41, 46, 73, 0.2);
+
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.guess {
+  border-radius: 8px;
+  border: 1px solid #292e49;
+  color: #fff;
+  width: 127px;
+  height: 48px;
+  background-color: #292e49;
+  background: rgba(41, 46, 73, 0.6);
+  margin-bottom: 43px;
+
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.answer {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.25);
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0px;
+  margin-bottom: 43px;
+}
+
+.counter {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#count {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.regain {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 43px;
+}
+
+.start-again {
+  width: 183px;
+  height: 48px;
+  color: #fff;
+  border-radius: 8px;
+  border: 1px solid #292e49;
+  background-color: #292e49;
+  background: rgba(41, 46, 73, 0.6);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.d-none {
+  display: none;
+}
